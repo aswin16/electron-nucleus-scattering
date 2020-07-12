@@ -22,7 +22,7 @@ def simpsons(f,a,b):
 def comp_simpsons(f,a,b,n):
     
     x = np.linspace(a,b,n)
-    fx = np.zeros(n)
+    #fx = np.zeros(n)
     h = (b-a)/n
     sumthrees = 0
     sumtwos = 0
